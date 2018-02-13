@@ -1,6 +1,6 @@
 {
   "name": "react-router-props-link",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "React Router DOM Link component using history from props",
   "main": "dist/Link.js",
   "scripts": {
@@ -9,11 +9,13 @@
     "prebuild": "rm -rf dist && mkdir dist",
     "pretest": "standard",
     "test": "jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tlvince/react-router-props-link.git"
+    "url": "https://github.com/tlvince/react-router-props-link.git"
   },
   "keywords": [
     "react",
@@ -44,7 +46,9 @@
     "prop-types": "15.6.0",
     "react-router-dom": "4.2.2",
     "standard": "10.0.3",
-    "validate-commit-msg": "2.14.0"
+    "validate-commit-msg": "2.14.0",
+    "semantic-release": "12.4.1",
+    "travis-deploy-once": "4.3.4"
   },
   "peerDependencies": {
     "react": ">=16",
