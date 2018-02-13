@@ -1,0 +1,60 @@
+{
+  "name": "react-router-props-link",
+  "version": "0.0.0",
+  "description": "React Router DOM Link component using history from props",
+  "main": "dist/Link.js",
+  "scripts": {
+    "build": "babel -d dist --ignore '*.test.js' src",
+    "commitmsg": "validate-commit-msg",
+    "prebuild": "rm -rf dist && mkdir dist",
+    "pretest": "standard",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/react-router-props-link.git"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "link",
+    "props",
+    "history"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "npm": ">=5.3",
+    "node": ">=6.11"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/react-router-props-link/issues"
+  },
+  "homepage": "https://github.com/tlvince/react-router-props-link#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.13",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "husky": "0.14.3",
+    "jest": "22.2.2",
+    "prop-types": "15.6.0",
+    "react-router-dom": "4.2.2",
+    "standard": "10.0.3",
+    "validate-commit-msg": "2.14.0"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-router-dom": ">=4"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setup-tests.js"
+  }
+}
