@@ -44,11 +44,12 @@
     "husky": "0.14.3",
     "jest": "22.2.2",
     "prop-types": "15.6.0",
+    "react": "16.2.0",
     "react-router-dom": "4.2.2",
-    "standard": "10.0.3",
-    "validate-commit-msg": "2.14.0",
     "semantic-release": "12.4.1",
-    "travis-deploy-once": "4.3.4"
+    "standard": "10.0.3",
+    "travis-deploy-once": "4.3.4",
+    "validate-commit-msg": "2.14.0"
   },
   "peerDependencies": {
     "react": ">=16",
