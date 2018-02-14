@@ -83,7 +83,7 @@ const App = () =>
   <Router>
     <Fragment>
       <h1>Parent App</h1>
-      <p>Note the link in sub apps 1 and 2 don't work, but sub app 3 does</p>
+      <p>Note the link in sub apps 1 and 2 do not work, but sub app 3 does</p>
       <ul>
         <li><Link to='/app-1'>Sub app 1</Link></li>
         <li><Link to='/app-2'>Sub app 2</Link></li>
