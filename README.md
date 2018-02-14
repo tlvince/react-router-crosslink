@@ -22,7 +22,7 @@ import createHistory from 'history/createBrowserHistory'
 // In practice, you'll probably be creating this elsewhere
 const history = createHistory()
 
-<Link
+<CrossLink
   to='/'
   history={history}
 />
