@@ -7,8 +7,8 @@
   "browser": "dist/react-router-props-link.umd.js",
   "source": "build/CrossLink.js",
   "scripts": {
-    "babel": "babel -d build --ignore '*.test.js' src",
-    "build": "npm run -s babel && microbundle --compress false",
+    "babel": "babel --presets=react --plugins=transform-object-rest-spread --no-babelrc -d build --ignore '*.test.js' src",
+    "build": "npm run -s babel && microbundle",
     "commitmsg": "validate-commit-msg",
     "prebuild": "rm -rf build dist && mkdir build dist",
     "pretest": "standard",
