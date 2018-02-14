@@ -1,10 +1,10 @@
 {
-  "name": "react-router-props-link",
+  "name": "react-router-crosslink",
   "version": "0.0.0-development",
-  "description": "React Router DOM Link component using history from props",
-  "main": "dist/react-router-props-link.js",
-  "module": "dist/react-router-props-link.es.js",
-  "browser": "dist/react-router-props-link.umd.js",
+  "description": "React Router Link with parametrised history",
+  "main": "dist/react-router-crosslink.js",
+  "module": "dist/react-router-crosslink.es.js",
+  "browser": "dist/react-router-crosslink.umd.js",
   "source": "build/CrossLink.js",
   "scripts": {
     "babel": "babel --presets=react --plugins=transform-object-rest-spread --no-babelrc -d build --ignore '*.test.js' src",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tlvince/react-router-props-link.git"
+    "url": "https://github.com/tlvince/react-router-crosslink.git"
   },
   "keywords": [
     "react",
@@ -34,9 +34,9 @@
     "node": ">=6.11"
   },
   "bugs": {
-    "url": "https://github.com/tlvince/react-router-props-link/issues"
+    "url": "https://github.com/tlvince/react-router-crosslink/issues"
   },
-  "homepage": "https://github.com/tlvince/react-router-props-link#readme",
+  "homepage": "https://github.com/tlvince/react-router-crosslink#readme",
   "dependencies": {},
   "devDependencies": {
     "babel": "6.23.0",
